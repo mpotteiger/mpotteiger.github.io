@@ -1,1 +1,93 @@
-theme: jekyll-theme-cayman
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+<body>  
+  <nav id="nav-bar">
+  <p id="nav-item">About</p>
+    <p id="nav-item">Projects</p>
+    <p id="nav-item">Work</p>
+  </nav>
+
+
+<header id="welcome-section">
+  <div id="welcome-item">
+  <h1>Hi, I am Michael!</h1>
+    <p>Innovator. Developer. Dementia Advocate.</p>
+    <h2>&#x21A7; &#x21A7; &#x21A7;</h2></em>
+  
+  </div>
+</header>
+
+<section>
+<div id="about">
+ <div class="about"> <h1>About</h1>
+  </div>
+  <div class="about2">
+  <p>Since 2013, I have been developing solutions and leading projects that leverage technology to enrich the lives of older adults and people with cognitive challenges.</p>
+    <br>
+    <ul id="bulletindent">
+    <li>Email: mpotteiger@icloud.com</li>
+    <li>LinkedIn | Michael Potteiger</li>
+    <li> GitHub  | GenerationConnect19</li>
+   </ul>
+  </div>
+  <img class="about3" src="https://www.fillmurray.com/640/360
+">
+  </div>
+  </scetion>
+  
+<section>
+<div id="projectsintro">
+  <h1>Projects</h1>
+  </div>
+  <div class="project-des">
+  <p>These are some of my current projects.</p>
+</div>
+  
+  <div id="projects">
+    <div class="project">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">Care Team Connect App</h2>
+    </div>
+    
+    <div class="project">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">NIH Innovation Grant</h2>
+    </div>
+    
+     <div class="project">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">Meal Match Program</h2>
+    </div>
+  </div>
+</section> 
+
+<section>
+  <div id="workintro">
+    <h1>Work</h1>
+  </div>
+  
+  <div id="work">
+    <div class="work">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">Dementia Video</h2>
+    </div>
+    
+    <div class="work">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">iPad Guide</h2>
+    </div>
+    
+     <div class="work">
+      <img class="projectimage" src="https://picsum.photos/640/360">
+      <h3 class="project-title">Caregiver Course</h2>
+    </div>
+  </div>
+  
+   <div class="workoutro">
+    <button class="outro2">See More >
+    </button>
+  </div>
+  
+  </body>
