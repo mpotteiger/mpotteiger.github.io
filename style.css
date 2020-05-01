@@ -99,7 +99,6 @@ li {
 {
   display: flex;
   flex-direction: row;
-  height: 100%;
   background-color: var(--main-white);
   color: var(--main-black);
   padding-left: 60px;
@@ -157,7 +156,6 @@ img.about3
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  height: 100%;
   background-color: var(--main-white);
   color: var(--main-black);
   padding-left: 60px;
@@ -417,7 +415,6 @@ button.outro {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  height: 100%;
   background-color: var(--main-black);
   color: var(--main-white);
   padding-left: 60px;
