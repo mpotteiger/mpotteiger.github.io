@@ -25,6 +25,10 @@ li {
   font-weight: 100;
 }
 
+a {
+  text-decoration-color: var(--main-teal);
+}
+
 
 /* Navigation Bar  */
 
@@ -36,7 +40,6 @@ li {
   background: var(--main-purple);
   justify-content: flex-end;
   align-items: center;
- 
   
 }
 
@@ -132,6 +135,15 @@ img.about3
   width: 35%;
 }
 
+.about4
+  {
+   display: none;
+  }
+
+img.about4
+{
+width: 100%;
+}
 
 
 /* Work Section  */
@@ -197,6 +209,43 @@ h3.work-title {
   text-transform: uppercase;
 }
 
+.work-outro
+{
+  background-color: var(--main-purple);
+  color: var(--main-white);
+  padding-left: 60px;
+  padding-bottom: 4rem;
+}
+
+button.outro3 {
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+ 
+}
+  
+  button.outro3:hover {
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-white);
+  background-color: var(--main-purple);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+  transition-duration: 0.4s;
+} 
+
 
 /* Portfolio Section */
 
@@ -214,9 +263,21 @@ h3.work-title {
   
 }
 
+#portfolio-des {
+  display: flex;
+  background-color: var(--main-black);
+  color: var(--main-white);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  font-size: 1.5em;
+}
+
 #portfolio
 {
   display: flex;
+  justify-content: center;
   background-color: var(--main-black);
   color: var(--main-white);
   padding-left: 2rem;
@@ -312,11 +373,6 @@ img.footer-images {
 }
 
 
-
-
-
-
-
 /* Nav, Welcome, & About on Phones  */
 
 
@@ -357,7 +413,7 @@ img.footer-images {
   color: var(--main-white);
   text-align: center;
   line-height: 1;
-  padding: 4rem;
+  padding: 1rem 4rem 4rem 4rem;
 }
   
    #about
@@ -398,18 +454,18 @@ h1.about
 {
   display: none;
 }
-
-img.about3
-{
-  display: none;
-}
-
-#bulletindent
-{
-  padding-top: .5em;
-  margin: -1em;
   
+  
+.about4
+  {
+   display: block;
+  }
+
+img.about4
+{
+width: 100%;
 }
+
   
   #workintro
 {
@@ -433,13 +489,101 @@ img.about3
 
 }
   
+.work-outro
+{
+  background-color: var(--main-purple);
+  color: var(--main-white);
+  padding: 0rem 0rem 4rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+  
+    #portfolio-des {
+   display: flex;
+  background-color: var(--main-black);
+  color: var(--main-white);
+  padding-left: 4rem;
+  padding-right: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+  
   .portfolio-outro
 {
   background-color: var(--main-black);
   color: var(--main-white);
-  padding-left: 60px;
-  padding-bottom: 4rem;
+  padding: 0rem 0rem 4rem 0rem;
+  display: flex;
+  justify-content: center;
 }
+  
+  button.outro2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+ 
+}
+  
+  button.outro2:hover {
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 70%;
+    float: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-white);
+  background-color: var(--main-purple);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+  transition-duration: 0.4s;
+} 
+  
+  button.outro3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+ 
+}
+  
+  button.outro3:hover {
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 70%;
+    float: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-white);
+  background-color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+  transition-duration: 0.4s;
+} 
   
 }
 
@@ -473,6 +617,16 @@ img.about3
 
 #welcome-text, p {
   weight: 100;
+}
+  
+  .about4
+  {
+   display: block;
+  }
+
+img.about4
+{
+width: 100%;
 }
 
 #workintro
@@ -535,6 +689,15 @@ h3.work-title {
   font-size: 100%;
   text-transform: uppercase;
 }
+  
+.work-outro
+{
+  background-color: var(--main-purple);
+  color: var(--main-white);
+  padding: 0rem 0rem 4rem 0rem;
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -596,6 +759,81 @@ h3.portfolio-title {
    font-family: 'Roboto', sans-serif;
   font-size: 100%;
   text-transform: uppercase;
+}
+  
+    .portfolio-outro
+{
+  background-color: var(--main-black);
+  color: var(--main-white);
+  padding: 0rem 0rem 4rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+  
+  button.outro2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+ 
+}
+  
+  button.outro2:hover {
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 80%;
+    float: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-white);
+  background-color: var(--main-purple);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+  transition-duration: 0.4s;
+} 
+  
+  button.outro3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+ 
+}
+  
+  button.outro3:hover {
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  border-radius: 5px;
+  width: 80%;
+    float: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  color: var(--main-white);
+  background-color: var(--main-black);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+  transition-duration: 0.4s;
 }
 
 
