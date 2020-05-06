@@ -96,10 +96,10 @@ a {
   background-color: var(--main-white);
   color: var(--main-black);
   padding-left: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   font-size: 150%;
-  align-items: flex-start;
+  align-items: center;
 }
 
 
@@ -111,7 +111,7 @@ h1.about
 .about 
 {
   line-height: 150%;
-  flex: 2 7;
+  flex: 1 7;
   padding-right: 3rem;
   
 }
@@ -120,8 +120,7 @@ h1.about
 {
   line-height: 150%;
   padding-right: 4rem;
-  flex: 12 1;
-  
+  flex: 3 1;
 }
 
 .about3
@@ -842,7 +841,7 @@ h3.portfolio-title {
 /* About Section on Tablets  */
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
   
  #about
 {
