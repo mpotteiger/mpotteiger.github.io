@@ -30,27 +30,62 @@ a {
 }
 
 a.main:link{
-  color: var(--main-black);
+  color: var(--main-white);
+ font-size: 1.35rem;
+ text-transform: uppercase;
 }
 
 a.main:visited {
-  color: var(--main-black)
+  color: var(--main-white)
+  font-size: 1.35rem;
+ text-transform: uppercase;
 }
 
 a.main:hover {
-  color: var(--main-black)
+  color: var(--main-white)
+  font-size: 1.35rem;
+ text-transform: uppercase;
 }
  
 .pure-g [class *= "pure-u"] {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.title {
+#title {
   font-size: 2.5rem;
 }
 
 .description {
 font-size: 1.2rem;
+}
+
+.description-2 {
+  font-size: 1rem;
+  }
+
+.title {
+  padding: 2rem 2rem 2rem 4rem;
+}
+
+.preview-image {
+
+  border: solid var(--main-black) 2px;
+}
+
+.three-box {
+  padding: 3rem;
+}
+
+.two-box {
+  padding: 2rem;
+}
+
+.one-box {
+  padding: 1rem;
+}
+
+.one-box-top {
+  padding-top: 1rem;
 }
 
 
@@ -792,6 +827,50 @@ a.pure-button-selected {
 }
 
 
+/* teal button */
+
+.pure-button-teal {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0.5em 1em;
+  color: rgba(241, 237, 237, 0.8);
+  border: none rgba(0, 0, 0, 0);
+  background-color: #39D8DE;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.pure-button-teal-hover,
+.pure-button-teal:hover,
+.pure-button-teal:focus {
+  background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.pure-button-teal:focus {
+  outline: 0;
+}
+
+/* black button */
+
+.pure-button-black {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0.5em 1em;
+  color: rgba(241, 237, 237, 0.8);
+  border: none rgba(0, 0, 0, 0);
+  background-color: #292637;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.pure-button-black-hover,
+.pure-button-black:hover,
+.pure-button-black:focus {
+  background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+.pure-button-black:focus {
+  outline: 0;
+}
+  
 /* Grid Additions */
 
 .b-box {
