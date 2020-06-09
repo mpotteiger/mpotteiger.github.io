@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "MP Portfolio",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "purecss": "^2.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenerationConnect19/GenerationConnect19.github.io.git"
+  },
+  "author": "Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenerationConnect19/GenerationConnect19.github.io/issues"
+  },
+  "homepage": "https://github.com/GenerationConnect19/GenerationConnect19.github.io#readme"
+}

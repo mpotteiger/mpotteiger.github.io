@@ -37,14 +37,10 @@ a.main:link{
 
 a.main:visited {
   color: var(--main-white)
-  font-size: 1.35rem;
- text-transform: uppercase;
 }
 
 a.main:hover {
   color: var(--main-white)
-  font-size: 1.35rem;
- text-transform: uppercase;
 }
  
 .pure-g [class *= "pure-u"] {
@@ -549,10 +545,6 @@ width: 100%;
   line-height: 2;
   font-size: 1.5em;
   
-}
-
-#welcome-text, p {
-  weight: 100;
 }
   
   .about4
