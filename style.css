@@ -37,10 +37,14 @@ a.main:link{
 
 a.main:visited {
   color: var(--main-white)
+  font-size: 1.35rem;
+ text-transform: uppercase;
 }
 
 a.main:hover {
   color: var(--main-white)
+  font-size: 1.35rem;
+ text-transform: uppercase;
 }
  
 .pure-g [class *= "pure-u"] {
