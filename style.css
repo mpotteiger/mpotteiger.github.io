@@ -36,13 +36,13 @@ a.main:link{
 }
 
 a.main:visited {
-  color: var(--main-white)
+  color: var(--main-white);
   font-size: 1.35rem;
  text-transform: uppercase;
 }
 
 a.main:hover {
-  color: var(--main-white)
+  color: var(--main-white);
   font-size: 1.35rem;
  text-transform: uppercase;
 }
@@ -330,7 +330,6 @@ button.outro2 {
   transition-duration: 0.4s;
 } 
 
-@media only screen and (max-width: 1280px)
 
  
 /* footer section */
@@ -848,27 +847,13 @@ a.pure-button-selected {
   background-color: white;
   border: solid var(--main-black) 1px;
   border-radius: 5px;
-  margin: .5em 0 .5em 0;
+  margin: .75em 0 .75em 0;
 }
 
-{
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0.5em 1em;
-  color: rgba(241, 237, 237, 0.8);
-  border: none rgba(0, 0, 0, 0);
-  background-color: #292637;
-  text-decoration: none;
-  border-radius: 2px;
-}
 
-/* Grid Additions */
 
-.scope-box {
-padding: 0em;
-margin-right: 1em;
-}
+/* Work Expample */
 
-.title-box {
-  padding: 2rem 2rem 2rem 0;
+.work-example {
+  background-color: var(--main-white);
 }
