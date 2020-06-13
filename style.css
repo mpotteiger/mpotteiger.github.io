@@ -853,7 +853,8 @@ a.pure-button-selected {
 
 /* tag buttons */
 
-.tag {
+
+.tag1 {
   font-family: inherit;
   font-size: 70%;
   padding: 0.5em 1em;
@@ -861,6 +862,44 @@ a.pure-button-selected {
   border: solid var(--main-black) 1px;
   border-radius: 5px;
   margin: .75em 0 .75em 0;
+  border-color: #ff8829;
+    box-shadow: 0 0 3px #ff8829;
+}
+
+.orange {
+  color: #ff8829;
+}
+
+.tag2 {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
+  border-color: #fff849;
+    box-shadow: 0 0 3px #fff849;
+}
+
+.yellow {
+  color:#fff849;
+}
+
+.tag3 {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
+  border-color: #13d9b4;
+    box-shadow: 0 0 3px #13d9b4;
+}
+
+.blue {
+  color:#13d9b4;
 }
 
 
