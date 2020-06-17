@@ -59,10 +59,7 @@ a.main:hover {
   font-size: 1.35rem;
  text-transform: uppercase;
 }
- 
-.pure-g [class *= "pure-u"] {
-  font-family: 'Roboto Condensed', sans-serif;
-}
+
 
 #title {
   font-size: 3em;
@@ -77,8 +74,15 @@ font-size: 1.5em;
   }
 
 .title {
-  padding: 2rem 2rem 2rem 4rem;
+  padding: 2em 4em 0 4em;
+  margin: 0;
 }
+
+.grid-padding {
+  padding: 2em 2em 0 2em;
+}
+
+
 
 .preview-image {
 
@@ -120,10 +124,14 @@ border-radius: 1em 1em 0 0;}
 
 /* Cards */
 
-.card {
+#card {
   
   background-color: #5a77d8;
-  border-radius: .75em;
+  border: solid var(--main-teal) 1px;
+}
+
+#card2 {
+  background-color: #4f4969;
   border: solid var(--main-teal) 1px;
 }
 
@@ -135,7 +143,6 @@ border-radius: 1em 1em 0 0;}
 .card2 {
   
   background-color: #4f4969;
-  border-radius: .75em;
   border: solid var(--main-teal) 1px;
 }
 
@@ -144,10 +151,28 @@ border-radius: 1em 1em 0 0;}
 
 }
 
+.card-title {
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+}
+
 
 
 /* Navigation Bar  */
 
+.nav-bar-color {
+  background: var(--main-purple);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding: 1rem;
+  font-family: ;
+  color: white;
+}
+
+a.nav-bar-item:link {
+  color: var(--main-white);
+}
 
 #nav-bar
 {
@@ -167,7 +192,22 @@ border-radius: 1em 1em 0 0;}
   color: var(--main-white);
   text-shadow: 1px 1px 3px #292637;
   font-size: 1.5rem;
+  font-weight: 400;
 }
+
+#nav-item-active
+{
+  padding: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  color: var(--main-white);
+  text-shadow: 1px 1px 3px #292637;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
 
 
 /* Welcome Section  */
