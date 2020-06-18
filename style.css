@@ -155,6 +155,15 @@ border-radius: 1em 1em 0 0;}
   text-decoration: underline;
   text-decoration-color: var(--main-teal);
   text-transform: uppercase;
+  color: var(--main-white);
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+  color: var(--main-white);
+  box-shadow: 0px 3px 15px rgba(230, 230, 230,0.3);
 }
 
 
@@ -165,7 +174,6 @@ border-radius: 1em 1em 0 0;}
   background: var(--main-purple);
   text-transform: uppercase;
   font-size: 1.1rem;
-  padding: 1rem;
   font-family: ;
   color: white;
 }
@@ -177,7 +185,7 @@ a.nav-bar-item:link {
 #nav-bar
 {
   display: flex;
-  height: 75px;
+  height: 55px;
   background: var(--main-purple);
   justify-content: flex-end;
   align-items: center;
@@ -187,7 +195,7 @@ a.nav-bar-item:link {
 
 #nav-item
 {
-  padding: 2rem;
+  padding: .5em 1.5em .5em 1.5em;
   text-transform: uppercase;
   color: var(--main-white);
   text-shadow: 1px 1px 3px #292637;
@@ -197,7 +205,7 @@ a.nav-bar-item:link {
 
 #nav-item-active
 {
-  padding: 2rem;
+  padding: .5em 1.5em .5em 1.5em;
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-color: var(--main-teal);
@@ -218,8 +226,9 @@ a.nav-bar-item:link {
   height: 100vh;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   background-image: linear-gradient(62deg, #3a3d40 0%, #292637 100%);
+  padding-top: 10em;
 }
 
 #welcomesection, h1 {
@@ -428,7 +437,7 @@ img.footer-images {
 /* Nav, Welcome, & About on Phones  */
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   
   #nav-bar
 {
@@ -595,15 +604,7 @@ width: 100%;
 
 @media only screen and (max-width: 800px) {
   
-  #welcome-section
-{
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #292637 100%);
-}
+
 
 #welcomesection, h1 {
   font-family: 'Roboto', sans-serif;
@@ -616,6 +617,7 @@ width: 100%;
   text-align: center;
   line-height: 2;
   font-size: 1.5em;
+  padding: 0 5rem 0 5rem;
   
 }
   
