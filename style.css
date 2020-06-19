@@ -22,7 +22,7 @@ h8 {
 
 p {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 li {
@@ -416,22 +416,7 @@ button.outro2 {
 img.footer-images {
   max-width: 12vw;
   height: 40px;
-}
-
-
-#footer-icons
-{
-  display: flex;
-  padding-top: 1em;
-  justify-content: left;
-}
-
-
-#footer-items
-{
-  flex: 0 0;
-  padding: 0em 1em 2em 0;
-  max-width: 30% vw;
+  margin: .5em;
 }
 
 .contact-info {
@@ -443,8 +428,13 @@ img.footer-images {
   background-color: var(--main-white);
   margin: 1rem;
   padding: 2.5rem;
-  border: solid 1px var(--main-black);
-  border-radius: 1em;
+  border: solid 1px var(--main-teal);
+  border-radius: .5em;
+}
+
+#footer-text {
+  line-height: 1.1;
+  font-size: large;
 }
 
 
