@@ -413,6 +413,16 @@ button.outro2 {
   font-weight: 200;
 }
 
+#footer-intro2
+{
+  text-align: left;
+  color: var(--main-white);
+  font-size: 2em;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 200;
+}
+
 img.footer-images {
   max-width: 12vw;
   height: 40px;
@@ -430,6 +440,8 @@ img.footer-images {
   padding: 2.5rem;
   border: solid 1px var(--main-teal);
   border-radius: .5em;
+  background-color: (var(--main-black), .7);
+  color: var(--main-white);
 }
 
 #footer-text {
