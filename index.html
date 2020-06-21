@@ -4,23 +4,33 @@
 
 <link href="./style.css" rel="stylesheet">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/base-min.css">
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-min.css">
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
 
 
+
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
 
-<body> 
-
-
-<!-- Navigation Section -->
-
-  <nav id="nav-bar">
-    <a href="#about"><p id="nav-item">About</p></a>
-    <a href="#workintro"><p id="nav-item">Work</p></a>
-    <a href="#portfolio-intro"><p id="nav-item">Portfolio</p></a>
-  </nav>
+    <!-- header -->
+<nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+    <a id="nav-item" class="nav-item nav-link active nav-bar-item main-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a id="nav-item-active" class="nav-item nav-link" href="#">Work</a>
+      <a id="nav-item" class="nav-item nav-link" href="#">Projects</a>
+      <a id="nav-item" class="nav-item nav-link" href="#" tabindex="-1">Contact</a>
+    </div>
+  </div>
+</nav>
 
 
 <!-- Welcome Section -->
@@ -28,7 +38,7 @@
 <header id="welcome-section">
   <div id="welcome-item">
   <h1>Hi, I'm Michael!</h1>
-    <p>Innovator. Developer. Dementia Advocate.</p>
+    <p>Innovator. Creator. Dementia Advocate.</p>
     <h2>&#x21A7; &#x21A7; &#x21A7;</h2></em>
   </div>
 </header>
@@ -57,189 +67,196 @@
   <p class="description">Since 2013, I have been developing solutions and leading projects that leverage technology to enrich the lives of older adults and people with cognitive challenges</p>
 </div>
 
-<div class="pure-g three-box-m">
- 
+<div class="container-fluid">
+  <div class="row grid-padding">
 
-  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-    <div class="two-box-m card">
-      <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-      <div class="one-box-top one-box">
-        <h3><a class="main" href="CareTeamApp.html">Product Development</h3></a>
-        <p class="description-2 one-box-top">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
-    </div>  
+<div class="work-scope col-12 px-5 pt-2 pb-4 col-md-4 px-md-4 pt-md-2 mb-md-5">
+<div id="card" class="card mb-2">
+  <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+  <div class="card-body">
+    <h5><a class="card-title" href="/CareTeamApp.html">Product & Sales</a></h5>
+    <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+  </div>
+</div>
+</div>
+
+<div class="work-scope col-12 px-5 pt-2 pb-4 col-md-4 px-md-4 pt-md-2 mb-md-5">
+  <div id="card" class="card mb-2">
+    <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+    <div class="card-body">
+      <h5 class="card-title">Grants & Research</h5>
+      <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+    </div>
   </div>
   </div>
 
-
-  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-    <div class="two-box-m card">
-      <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-      <div class="one-box-top one-box">
-          <h3><a class="main" href="CareTeamApp.html">Sales & Consulting</h3></a>
-          <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p> 
-        </div>
-        </div>
+  <div class="work-scope col-12 px-5 pt-2 pb-4 col-md-4 px-md-4 pt-md-2 mb-md-5">
+    <div id="card" class="card mb-">
+      <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+      <div class="card-body">
+        <h5 class="card-title">Digital Marketing</h5>
+        <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
       </div>
-  
-
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <div class="two-box-m card">
-          <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-          <div class="one-box-top one-box">
-            <h3><a class="main" href="CareTeamApp.html">Digital Marketing</h3></a>
-            <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-          </div>
-          </div>  
+    </div>
     </div>
 
-    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-      <div class="two-box-m card">
-        <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-        <div class="one-box-top one-box">
-        <h3><a class="main" href="CareTeamApp.html">Research</h3></a>
-        <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-      </div>  
-    </div>  
   </div>
-
-
-  <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-    <div class="two-box-m card">
-      <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-      <div class="one-box-top one-box">
-          <h3><a class="main" href="CareTeamApp.html">Training & Support</h3></a>
-          <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-        </div>  
-      </div>
-      </div>
-  
-
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <div class="two-box-m card">
-          <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-          <div class="one-box-top one-box">
-            <h3><a class="main" href="CareTeamApp.html">Volunteering</h3></a>
-            <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-          </div>  
-        </div>  
-    </div>
-
-
-  </div>
-
-  
-
+</div>
 
 
 <!-- Portfolio Section -->
 
-  <div id="portfolio">
+<div id="portfolio">
 
-    <div class="title">
-      <h1 id="title">Portfolio</h1>
-      <p class="description">A few of examples of project deliverables.</p>
-    </div>
-
-
+  <div class="title">
+    <h1 id="title">Portfolio</h1>
+    <p class="description">A few of examples of project deliverables.</p>
+  </div>
 
 
-  <div class="pure-g three-box-m">
+<div class="container-fluid">
+  <div class="row grid-padding">
 
-    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-      <div class="two-box-m card2">
-        <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588799248/Personal%20Website/dementia_cartoon.png"></a>
-        <div class="one-box-top one-box">
-          <h3><a class="main" href="CareTeamApp.html">Product Development</h3></a>
-          <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-      </div>  
-    </div>
-    </div>
-  
-  
-    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-      <div class="two-box-m card2">
-        <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588799248/Personal%20Website/ipad_guide.png"></a>
-        <div class="one-box-top one-box">
-            <h3><a class="main" href="CareTeamApp.html">Sales & Consulting</h3></a>
-            <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p> 
-          </div>
-          </div>
-        </div>
-    
-  
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-          <div class="two-box-m card2">
-            <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588799248/Personal%20Website/caregiver_course.png"></a>
-            <div class="one-box-top one-box">
-              <h3><a class="main" href="CareTeamApp.html">Digital Marketing</h3></a>
-              <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-            </div>
-            </div>  
-      </div>
-  
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <div class="two-box-m card2">
-          <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588799248/Personal%20Website/ipad_guide.png"></a>
-          <div class="one-box-top one-box">
-          <h3><a class="main" href="CareTeamApp.html">Research</h3></a>
-          <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-        </div>  
-      </div>  
-    </div>
-  
-  
-    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-      <div class="two-box-m card2">
-        <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588785128/Personal%20Website/Work/ipad_deployment2.png"></a>
-        <div class="one-box-top one-box">
-            <h3><a class="main" href="CareTeamApp.html">Training & Support</h3></a>
-            <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-          </div>  
-        </div>
-        </div>
-    
-  
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-          <div class="two-box-m card2">
-            <a href="CareTeamApp.html"><img class="pure-img preview-image" src="https://res.cloudinary.com/generation-connect/image/upload/v1588799248/Personal%20Website/caregiver_course.png"></a>
-            <div class="one-box-top one-box">
-              <h3><a class="main" href="CareTeamApp.html">Volunteering</h3></a>
-              <p class="description-2 one-box-top">Here's what it would look like if I wrote a short description of the project.</p>
-            </div>  
-          </div>  
-      </div>
-
+<div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+<div id="card2" class="card mb-2">
+  <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+  <div class="card-body">
+    <h5 class="card-title">Product & Sales</h5>
+    <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+  </div>
 </div>
+</div>
+
+<div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+  <div id="card2" class="card mb-2">
+    <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+    <div class="card-body">
+      <h5 class="card-title">Grants & Research</h5>
+      <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+    <div id="card2" class="card mb-">
+      <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+      <div class="card-body">
+        <h5 class="card-title">Digital Marketing</h5>
+        <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+      <div id="card2" class="card mb-2">
+        <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+        <div class="card-body">
+          <h5 class="card-title">Product & Sales</h5>
+          <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+        <div id="card2" class="card mb-2">
+          <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+          <div class="card-body">
+            <h5 class="card-title">Grants & Research</h5>
+            <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+          </div>
+        </div>
+        </div>
+      
+        <div class="col-12 px-5 pt-2 pb-4 col-md-6 px-md-4 pt-md-2 mb-md-5 col-lg-4 px-lg-4 pt-lg-2 pb-lg-4">
+          <div id="card2" class="card mb-2">
+            <img src="https://res.cloudinary.com/generation-connect/image/upload/v1592396084/Personal%20Website/Work/ctc_app_b.png" class="bd-placeholder-img card-img-top" width="100%" height="100%" role="img">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">Led the development of a mobile app to help healthcare organizations personalize dementia care.</p>
+            </div>
+          </div>
+          </div>
+
+  </div>
+</div>
+</div>
+
+
 
 
   <!-- Footer Section -->
   
   <div id="footer">
-    
-  <div id="footer-intro">
-    <h1>Contact</h1>
-    <p>Michael Potteiger</p>
-    <p>mpotteiger@icloud.com</p>
-    <p>717.825.6332</p>
-  </div>
-    
-    <div id="footer-icons">
-      
-  <div id="footer-items">
-    <a href="https://www.linkedin.com/in/michael-potteiger-5a876959/" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"></a>
+
+    <div class="container">
+      <div class="row d-flex align-items-start">
+  
+        <div class="col-12 px-5 pt-5 pb-5 col-lg-3 mx-lg-3 py-lg-3 mt-lg-5">
+          <div class="text-center text-lg-left" id="footer-intro">
+            <div class="pl-4 d-none d-lg-block footer-border">
+          <h2 class="pb-2">CONTACT</h2>
+          <p id="footer-text">Michael Potteiger</p>
+          <p id="footer-text">mpotteiger@icloud.com</p>
+          <p id="footer-text">717.825.6332</p>
+        </div>
+        
+        <div class="d-lg-none">
+          <h2 class="pb-2">CONTACT</h2>
+          <p id="footer-text">Michael Potteiger</p>
+          <p id="footer-text">mpotteiger@icloud.com</p>
+          <p id="footer-text">717.825.6332</p>
+        </div>
+        
+        </div>
+          
+        
+        <div class="container-sm d-flex justify-content-center justify-content-lg-start">
+        <a href="https://www.linkedin.com/in/michael-potteiger-5a876959/" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"></a>
+           
+        
+        
+        <a href="https://github.com/GenerationConnect19" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"></a>
+        
+        
+        <a href="mailto: michael@wearegenerationconnect.com" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"></a>
+         
+        
+        </div>
         </div>
     
-   <div id="footer-items">
-    <a href="https://github.com/GenerationConnect19" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"></a>
-      </div>
-    
-   <div id="footer-items">
-    <a href="mailto: michael@wearegenerationconnect.com" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"></a>
-      </div>
-    
-    </div>
   
+  <div class="col-12 px-5 pt-3 pb-3 col-lg-7 pb-lg-5 pt-lg-5 pb-lg-3 ml-auto">
+  
+    <div id="footer-form">
+    <h1 id="footer-intro2">GET IN TOUCH</h1>
+    <p id="footer-text" class="text-center">Want to connect? Drop me a line below!</p>
+    <form class="p-2">
+      <div class="form-group row">
+          <input type="text" class="form-control" placeholder="Name">
+        </div>
+  
+      <div class="form-group row">
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+        <div class="form-group row">
+        <textarea class="form-control" rows="3" placeholder="Say hi..."></textarea>
+      </div>
+      <br>
+      <div class="form-group row">
+      <button id="contact-button" class="btn btn-block btn-outline-primary" type="submit">SEND MESSAGE</button>
+      </div>
+    </form>
   </div>
+  </div>
+  
+  
+  
+  
+  
+  
+    </div>
+    </div>
+    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
