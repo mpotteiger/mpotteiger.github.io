@@ -68,6 +68,7 @@ a.main:hover {
 
 /* Title and Description for Work and Projects section */
 
+
 #title {
   font-size: 3em;
 }
@@ -83,6 +84,7 @@ font-size: 1.5em;
 .title {
   padding: 2em 4em 0 4em;
   margin: 0;
+
 }
 
 .grid-padding {
@@ -116,6 +118,7 @@ border-radius: 1em 1em 0 0;}
   text-decoration-color: var(--main-teal);
   text-transform: uppercase;
   color: var(--main-white);
+
 }
 
 .card-title:hover {
@@ -125,11 +128,27 @@ border-radius: 1em 1em 0 0;}
   color: var(--main-teal);
 }
 
+.card-title {
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+  color: var(--main-white);
+}
+
+.card-title:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+  color: var(--main-white);
+  box-shadow: 0px 3px 15px rgba(230, 230, 230,0.3);
+}
+
 
 
 /* Navigation Bar  */
 
 .nav-bar-color {
+
   background: var(--main-purple);
   text-transform: uppercase;
   font-size: 1.1rem;
@@ -144,7 +163,10 @@ a.nav-bar-item:link {
 #nav-item
 {
   padding: 1em 1.5em 1em 1.5em;
+
   text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
   color: var(--main-white);
   text-shadow: 1px 1px 3px #292637;
   font-size: 1.5rem;
@@ -166,6 +188,8 @@ a.nav-bar-item:link {
 
 
 
+
+
 /* Welcome Section  */
 
 #welcome-section
@@ -177,6 +201,7 @@ a.nav-bar-item:link {
   align-items: start;
   background-image: linear-gradient(62deg, #3a3d40 0%, #292637 100%);
   padding-top: 8rem;
+
 }
 
 #welcomesection, h1 {
@@ -370,6 +395,7 @@ width: 100%;
   line-height: 1.2;
   font-family: 'Roboto Slab', serif;
   font-weight: 200;
+
 }
 
 #footer-intro2
@@ -411,9 +437,11 @@ img.footer-images {
   box-shadow: 0px 3px 15px rgba(30, 170, 174, .8);
 }
 
+
 #contact-button:focus {
   color: var(--main-white);
   border-color: var(--main-white);
+
   font-family: 'Roboto', sans-serif;
   background-image: linear-gradient(62deg, #3a3d40 0%, #292637 100%);
   font-weight: 700;
