@@ -502,6 +502,21 @@ img.footer-images {
     box-shadow: 0 0 3px #133D5A;
 }
 
+.project-button {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
+  border-color: #133D5A;
+    box-shadow: 0 0 3px #133D5A;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
 .dark-blue {
   color:#133D5A;
 }
