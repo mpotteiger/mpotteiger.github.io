@@ -113,20 +113,36 @@ border-radius: 1em 1em 0 0;}
 
 }
 
-.card-title {
+.card-title:link {
   text-decoration: underline;
   text-decoration-color: var(--main-teal);
   text-transform: uppercase;
-  color: var(--main-white);
+  color: var(--main-black);
 
 }
+
+.card-title:visited {
+  text-decoration: underline;
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+  color: var(--main-black);
+}
+
 
 .card-title:hover {
   text-decoration: underline;
-  text-decoration-color: var(--main-white);
+  text-decoration-color: var(--main-teal);
+  text-transform: uppercase;
+  color: var(--main-black);
+}
+
+card-title:active {
+  text-decoration: underline;
+  text-decoration-color: var(--main-black);
   text-transform: uppercase;
   color: var(--main-teal);
 }
+
 
 .card-title2 {
   text-decoration: underline;
@@ -139,13 +155,6 @@ border-radius: 1em 1em 0 0;}
   color: var(--main-black)
 }
 
-.card-title:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--main-teal);
-  text-transform: uppercase;
-  color: var(--main-white);
-  box-shadow: 0px 3px 15px rgba(230, 230, 230,0.3);
-}
 
 
 
@@ -530,6 +539,8 @@ img.footer-images {
   font-size: .75rem;
   padding:7px 20px;
   color: var(--main-black);
+  background-color: var(--main-white);
+  border-color: var(--main-black);
  
 }
 .profile-card-5 .card-img-block {
@@ -551,11 +562,31 @@ img.footer-images {
   font-size: 1em;
   font-weight:300;
 }
-.profile-card-5 .btn-primary{
+.profile-card-5 .btn-primary:link{
   background-color: var(--main-white);
   border-color:var(--main-black);
 
 }
+
+.profile-card-5 .btn-primary:visited{
+  background-color: var(--main-white);
+  border-color:var(--main-black);
+
+}
+
+.profile-card-5 .btn-primary:hover{
+  background-color: var(--main-black);
+  border-color:var(--main-white);
+
+}
+
+.profile-card-5 .btn-primary:active{
+  background-color: var(--main-black);
+  border-color:var(--main-white);
+
+}
+
+
 
 
 
