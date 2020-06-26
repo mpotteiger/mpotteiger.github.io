@@ -160,6 +160,11 @@ card-title:active {
 
 /* Navigation Bar  */
 
+#nav-bar-dropdown {
+  background-color: var(--main-purple);
+  border-top: solid 1.5px var(--main-white);
+}
+
 .nav-bar-color {
 
   background: var(--main-purple);
@@ -167,11 +172,8 @@ card-title:active {
   font-size: 1.1rem;
   color: white;
 }
-#nav-bar-toggler {
-  color: var(--main-white);
-}
 
-a.nav-bar-item:link {
+#nav-bar-toggler {
   color: var(--main-white);
 }
 
@@ -184,6 +186,16 @@ a.nav-bar-item:link {
   text-shadow: 1px 1px 3px #292637;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.nav-item a:hover {
+  padding: 1em 1.5em 1em 1.5em;
+  text-transform: uppercase;
+  color: var(--main-white);
+  text-shadow: 1px 1px 3px #292637;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: var(--main-purple);
 }
 
 #nav-item-active
@@ -494,12 +506,22 @@ img.footer-images {
   color:#133D5A;
 }
 
+.border-right {
+  border-right: dotted 2px var(--main-black);
+}
+
 
 
 /* Work Expample */
 
 .work-title {
-  font-weight: 400;
+  font-weight: 550;
+
+}
+
+.work-subtitle {
+  font-weight: 150;
+  font-style: italic;
 }
 
 .work-example {

@@ -20,17 +20,27 @@
 <body> 
 
   <!-- header -->
-  <nav class="navbar navbar-expand-lg navbar-dark nav-bar-color">
-    <button id="nav-bar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-      <a id="nav-item" class="nav-item nav-link active nav-bar-item main-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      <a id="nav-item" class="nav-item nav-link" href="index.html#about-n">About</a>  
-      <a id="nav-item-active" class="nav-item nav-link" href="index.html#work">Work</a>
-        <a id="nav-item" class="nav-item nav-link" href="index.html#portfolio">Portfolio</a>
-        <a id="nav-item" class="nav-item nav-link" href="index.html#footer" tabindex="-1">Contact</a>
+      <li><a id="nav-item" class="nav-item nav-link active nav-bar-item main-link" href="index.html">Home</a></li>
+      <li><a id="nav-item" class="nav-item nav-link" href="index.html#about-n">About</a></li>
+      <li class="nav-item dropdown">
+        <a id="nav-item-active" class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Work
+        </a>
+        <div id="nav-bar-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a id="nav-item" class="nav-item dropdown-item" href="/CareTeamApp.html">Product & Sales</a>
+          <a  id="nav-item"class="nav-item dropdown-item" href="#">Grants & Research</a>
+          <a id="nav-item" class="nav-item dropdown-item" href="#">Account Mangagment</a>
+        </div>
+  
+  
+        <li><a id="nav-item" class="nav-item nav-link" href="index.html#portfolio">Portfolio</a></li> 
+        <li><a id="nav-item" class="nav-item nav-link" href="#footer" tabindex="-1">Contact</a></li>
       </div>
     </div>
   </nav>
@@ -41,7 +51,7 @@
   <div class="container">
 
     <div class="row">
-    <div class="work-scope col-12 px-5 pt-2 pb-4 order-2 col-md-3 pl-md-2 pr-md-5 pt-md-5 pb-md-2 order-md-1">
+    <div class="work-scope col-12 px-5 pt-3 pb-4 order-2 col-md-3 pl-md-2 pr-md-5 pt-md-5 pb-md-2 order-md-1">
   
         <strong><h5>SCOPE OF WORK</h5></strong>
         <br>
@@ -68,8 +78,9 @@
     </div>
   
      
-        <div class="col-12 px-5 py-2 order-1 col-md-9 py-md-5 pl-md-4 pr-md-2 order-md-2">
-                <h2 class="work-title">CARE TEAM CONNECT</h2>
+        <div class="col-12 px-4 pt-4 pb-3 order-1 col-md-9 py-md-5 pl-md-5 pr-md-2 order-md-2">
+          <h2 class="work-title">PRODUCT & SALES</h2>      
+          <h3 class="work-subtitle">Care Team Connect Mobile App</h3>
                 <br>
                 <h5>OVERVIEW</h5>
                 <p>There are over 5.8 million Americans living with Alzheimer’s Disease or a related dementia; these are long-term diseases that require an average of 4-8 years of care. Recent trends show that a vast majority of people diagnosed with dementia prefer to receive support in their home. As such, there is a growing demand for in-home dementia care services.
