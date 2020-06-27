@@ -273,14 +273,9 @@ card-title:active {
 
 
 
-/* About Section on Phones  */
-
-
-
 /* About Section on Tablets  */
 
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
   
   #about
  {
@@ -292,7 +287,36 @@ card-title:active {
  }
 
  #aboutdes {
-  padding-left: 85px;
+  padding-left: 35px;
+
+}
+ 
+ }
+
+
+
+/* About Section on Tablets  */
+
+
+@media only screen and (max-width: 991px) {
+  
+  .title
+ {
+   padding: 1.5rem 2.5rem 1.5rem 4.5rem;
+ }
+
+ #title2
+ {
+   padding: 1.5rem 3.5rem 1.5rem 4.5rem;
+ }
+
+#about {
+  padding-left: 0;
+
+}
+
+ #aboutdes {
+  padding-left: 0;
 
 }
  
