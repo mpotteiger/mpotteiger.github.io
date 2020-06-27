@@ -486,6 +486,22 @@ img.footer-images {
     box-shadow: 0 0 3px #44857D;
 }
 
+.orange {
+  color: #F19233;
+}
+
+.tag4 {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
+  border-color: #F19233;
+    box-shadow: 0 0 3px #F19233;
+}
+
 .teal-light {
   color:#44857D;
 }
@@ -510,8 +526,38 @@ img.footer-images {
   border: solid var(--main-black) 1px;
   border-radius: 5px;
   margin: .75em 0 .75em 0;
+  border-color: #d5dadd;
+    box-shadow: 0 0 3px #d5dadd;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.project-button-current {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
   border-color: #133D5A;
     box-shadow: 0 0 3px #133D5A;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.project-button:hover {
+  font-family: inherit;
+  font-size: 70%;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: solid var(--main-black) 1px;
+  border-radius: 5px;
+  margin: .75em 0 .75em 0;
+  border-color: #EC6333;
+    box-shadow: 0 0 3px #EC6333;
     display: block;
     width: 100%;
     text-align: left;
@@ -530,7 +576,7 @@ img.footer-images {
 /* Work Expample */
 
 .work-title {
-  font-weight: 550;
+  font-weight: 450;
 
 }
 
