@@ -263,12 +263,25 @@ li #nav-item-active {
 
 .welcome-description {
   font-family: 'Roboto', sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.5;
   color: var(--main-white);
   text-align: center;
 }
 
+@media only screen and (max-width: 450px) {
+  
+  {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #292637 100%);
+  
+  }
+ 
+ }
 
 
 
