@@ -679,6 +679,10 @@ li.outcomes {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;}
 
+li.indent {
+margin-left: 2em;
+}
+
 /*Profile Card 5*/
 
 .project-preview-title {
