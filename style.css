@@ -203,7 +203,7 @@ card-title2:active {
   text-transform: uppercase;
   color: var(--main-white);
   text-shadow: 1px 1px 3px #292637;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -245,7 +245,7 @@ li.dropdown {
   text-decoration-color: var(--main-teal);
   color: var(--main-white);
   text-shadow: 1px 1px 3px #292637;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 400;
   text-decoration: underline;
   text-decoration-color: var(--main-teal);
@@ -779,6 +779,7 @@ li.indent2 {
   border: none;
 }
 
+
 /* Flickity Slider */
 
 .full {
@@ -786,4 +787,11 @@ li.indent2 {
   height: auto; /* height of carousel */
   margin-right: 2rem;
   margin-left: 2rem;
+}
+
+/* IMage Caption */
+
+.caption {
+  font-size: .75em;
+  font-style: italic;
 }
