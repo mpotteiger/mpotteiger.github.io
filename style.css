@@ -799,4 +799,6 @@ li.indent2 {
 
 #border {
   border: 2px solid var(--main-teal);
+vertical-align: bottom;
+display: block;
 }
