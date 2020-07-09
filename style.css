@@ -809,3 +809,34 @@ li.indent2 {
 vertical-align: bottom;
 display: block;
 }
+
+
+/* Thank You Section */
+
+#thank-you
+{
+  background-color: var(--main-white);
+  padding: 8rem;
+
+}
+
+.thank-you-title {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    line-height: 1.25;
+    color: var(--main-black);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--main-teal);
+    text-decoration-skip-ink: none;
+
+}
+
+.thank-you-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75em;
+  line-height: 1.5;
+  color: var(--main-black);
+  text-align: center;
+}
