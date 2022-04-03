@@ -1,209 +1,405 @@
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./style.css" rel="stylesheet" />
 
-<link href="./style.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+  />
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    rel="stylesheet"
+  />
 
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <li>
+            <a
+              id="nav-item"
+              class="nav-item nav-link active nav-bar-item main-link"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a id="nav-item" class="nav-item nav-link" href="index.html#about-n"
+              >About</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              id="nav-item"
+              class="nav-item nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Experience
+            </a>
+            <div
+              id="nav-bar-dropdown"
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown"
+            >
+              <a id="nav-item-dropdown" href="/CareTeamApp.html">Product</a>
+              <a id="nav-item-dropdown" href="/research.html">Research</a>
+              <a id="nav-item-dropdown" href="/consulting.html">Consulting</a>
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a
+              id="nav-item-active"
+              class="nav-item nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Portfolio
+            </a>
+            <div
+              id="nav-bar-dropdown"
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown"
+            >
+              <a id="nav-item-dropdown" href="/gc-deck.html"
+                >Presentation: App Deck</a
+              >
+              <a id="nav-item-dropdown" href="/research-webinar.html"
+                >Research Webinar</a
+              >
+              <a id="nav-item-dropdown" href="/focus-groups.html"
+                >Focus Group Analysis</a
+              >
+              <a id="nav-item-dropdown" href="/specific-aims.html"
+                >NIH Grant Aims</a
+              >
+              <a
+                id="nav-item-dropdown"
+                href="/Dementia-Care-Animated-Video.html"
+                >Animated Video</a
+              >
+              <a id="nav-item-dropdown" href="/intergenerational.html"
+                >Community Grant</a
+              >
+              <a id="nav-item-dropdown" href="/ipad-guide.html"
+                >iPad Training Guide</a
+              >
+              <a id="nav-item-dropdown" href="/accessibility.html"
+                >Accessibility Video</a
+              >
+              <a id="nav-item-dropdown" href="/senior-tech.html"
+                >Seniors Tech Video</a
+              >
+            </div>
+          </li>
 
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-
-<body> 
-
-   <!-- header -->
-   <nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-      <li><a id="nav-item" class="nav-item nav-link active nav-bar-item main-link" href="index.html">Home</a></li>
-      <li><a id="nav-item" class="nav-item nav-link" href="index.html#about-n">About</a></li>
-      <li class="nav-item dropdown">
-        <a id="nav-item" class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Experience
-        </a>
-        <div id="nav-bar-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a id="nav-item-dropdown" href="/CareTeamApp.html">Product</a>
-          <a  id="nav-item-dropdown" href="/research.html">Research</a>
-          <a id="nav-item-dropdown" href="/consulting.html">Consulting</a>
+          <li>
+            <a
+              id="nav-item"
+              class="nav-item nav-link"
+              href="#footer"
+              tabindex="-1"
+              >Contact</a
+            >
+          </li>
         </div>
+      </div>
+    </nav>
 
-        <li class="nav-item dropdown">
-          <a id="nav-item-active" class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </a>
-          <div id="nav-bar-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a id="nav-item-dropdown" href="/CTC-case-study.html">App Case Study</a>
-            <a  id="nav-item-dropdown" href="/CTC-promo.html">App Promo Video</a>
-            <a id="nav-item-dropdown" href="/Dementia-Care-Animated-Video.html">Animated Video</a>
-            <a id="nav-item-dropdown" href="/research-outcomes.html">Research Charts</a>
-            <a  id="nav-item-dropdown" href="/specific-aims.html">NIH Grant</a>
-            <a id="nav-item-dropdown" href="/intergenerational.html">Community Grant</a>
-            <a id="nav-item-dropdown" href="/ipad-guide.html">iPad Training Guide</a>
-            <a  id="nav-item-dropdown" href="/accessibility.html">Accessibility Video</a>
-            <a id="nav-item-dropdown" href="senior-tech.html">Seniors Tech Video</a>
+    <!-- Main Section -->
+    <div class="work-example">
+      <div class="container">
+        <div class="row">
+          <div
+            class="work-scope col-12 pt-2 pb-4 order-2 col-md-3 pt-md-5 pb-md-2 pr-md-4 order-md-1"
+          >
+            <strong><h5 style="line-height: 1.75">ABOUT</h5></strong>
+
+            <div class="project-tag">
+              <i class="fas fa-video pr-2"></i>Video
+            </div>
+            <div class="project-tag">
+              <i class="fas fa-comment pr-2"></i>Collaboration
+            </div>
+            <br />
+            <br />
+            <strong><h5 style="line-height: 1.75">PROJECTS</h5></strong>
+            <button
+              onclick="window.location.href='/CTC-case-study.html';"
+              class="project-button"
+            >
+              Dementia App: Case Study
+            </button>
+            <button
+              onclick="window.location.href='/CTC-promo.html';"
+              class="project-button"
+            >
+              Dementia App: Promo Video
+            </button>
+            <button
+              onclick="window.location.href='/Dementia-Care-Animated-Video.html';"
+              class="project-button"
+            >
+              Dementia Care: Animated Video
+            </button>
+            <button
+              onclick="window.location.href='/research-outcomes.html';"
+              class="project-button"
+            >
+              Demenita Research: Charts
+            </button>
+            <button
+              onclick="window.location.href='/specific-aims.html';"
+              class="project-button"
+            >
+              NIH Grant: Specific Aims
+            </button>
+            <button
+              onclick="window.location.href='/intergenerational.html';"
+              class="project-button"
+            >
+              Community Grant: Video
+            </button>
+            <button
+              onclick="window.location.href='/ipad-guide.html';"
+              class="project-button"
+            >
+              iPad Guide for Seniors
+            </button>
+            <button class="project-button-current">
+              Apple Accessibility Video
+            </button>
+            <button
+              onclick="window.location.href='/senior-tech.html';"
+              class="project-button"
+            >
+              Tech for Seniors: Promo Video
+            </button>
           </div>
-  
-            <li><a id="nav-item" class="nav-item nav-link" href="#footer" tabindex="-1">Contact</a></li>
+
+          <div
+            class="col-12 px-5 pt-3 pb-5 order-1 col-md-9 pt-md-5 pb-md-5 pl-md-5 pr-md-2 order-md-2"
+          >
+            <h2 class="work-title">APPLE ACCESSIBILITY VIDEO</h2>
+            <h5 class="portfolio-subtitle">
+              A promo video highlighting key accessibility features for impaired
+              vision
+            </h5>
+
+            <br />
+            <h5>OVERVIEW</h5>
+            <p>
+              My work developing instructional content for the iPad led to a
+              consulting project for an organization focused on assistive
+              technologies. The project was focus on highlighting key assistive
+              technology features for vision impairment on the iPhone and iPad.
+              The accessibility video was developed with a
+              <a
+                href="https://www.dropbox.com/s/attwufrnthr5j4u/Vision%20Accessibility%20Guide.pdf?dl=0"
+                target="blank"
+                >compainion guide</a
+              >
+              that was used as a lead magnet as part of a marketing sales
+              funnel.
+            </p>
+            <p>The video focused on the following features:</p>
+            <ul>
+              <li class="outcomes indent2">Increased Font Size</li>
+              <li class="outcomes indent2">Button Shapes & Labels</li>
+              <li class="outcomes indent2">Eliminating Transparency</li>
+              <li class="outcomes indent2">Screen Readers</li>
+              <li class="outcomes indent2">Display Accomodations</li>
+              <li class="outcomes indent2">Zoom Window</li>
+              <li class="outcomes indent2">Magnifying Camera</li>
+            </ul>
+            <br />
+            <div class="iframe-container">
+              <iframe
+                class="responsive-iframe"
+                src="https://player.vimeo.com/video/199213222"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
 
+    <!-- Footer Section -->
 
-  <!-- Main Section -->
-  <div class="work-example">
-  <div class="container">
+    <div id="footer">
+      <div class="container">
+        <div class="row d-flex align-items-start">
+          <div class="col-12 px-5 pt-5 pb-5 col-lg-3 mx-lg-3 py-lg-3 mt-lg-5">
+            <div class="text-center text-lg-left" id="footer-intro">
+              <div class="pl-4 d-none d-lg-block footer-border">
+                <h2 class="pb-2">CONTACT</h2>
+                <p id="footer-text">Michael Potteiger</p>
+                <p id="footer-text">mpotteiger@icloud.com</p>
+                <p id="footer-text">717.825.6332</p>
+              </div>
 
-    <div class="row">
-    <div class="work-scope col-12 pt-2 pb-4 order-2 col-md-3 pt-md-5 pb-md-2 pr-md-4 order-md-1">
-  
-        <strong><h5 style="line-height: 1.75;">ABOUT</h5></strong>
-    
-        <div class="project-tag"><i class="fas fa-video pr-2"></i>Video</div>
-          <div class="project-tag"><i class="fas fa-comment pr-2"></i>Collaboration</div>  
-    <br>
-    <br>
-    <strong><h5 style="line-height: 1.75;">PROJECTS</h5></strong>
-    <button onclick="window.location.href='/CTC-case-study.html';" class="project-button">Dementia App: Case Study</button>
-    <button onclick="window.location.href='/CTC-promo.html';" class="project-button">Dementia App: Promo Video</button>
-    <button onclick="window.location.href='/Dementia-Care-Animated-Video.html';"  class="project-button">Dementia Care: Animated Video</button>
-    <button onclick="window.location.href='/research-outcomes.html';"  class="project-button">Demenita Research: Charts</button>
-    <button onclick="window.location.href='/specific-aims.html';" class="project-button">NIH Grant: Specific Aims</button>
-    <button onclick="window.location.href='/intergenerational.html';" class="project-button">Community Grant: Video</button>
-    <button onclick="window.location.href='/ipad-guide.html';" class="project-button">iPad Guide for Seniors</button>
-    <button class="project-button-current">Apple Accessibility Video</button>
-    <button onclick="window.location.href='/senior-tech.html';" class="project-button">Tech for Seniors: Promo Video</button>
+              <div class="d-lg-none">
+                <h2 class="pb-2">CONTACT</h2>
+                <p id="footer-text">Michael Potteiger</p>
+                <p id="footer-text">mpotteiger@icloud.com</p>
+                <p id="footer-text">717.825.6332</p>
+              </div>
+            </div>
 
-  
+            <div
+              class="container-sm d-flex justify-content-center justify-content-lg-start"
+            >
+              <a
+                href="https://www.linkedin.com/in/michael-potteiger-5a876959/"
+                target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"
+              /></a>
 
+              <a href="https://github.com/GenerationConnect19" target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"
+              /></a>
 
-
-</div>
-  
-     
-        <div class="col-12 px-5 pt-3 pb-5 order-1 col-md-9 pt-md-5 pb-md-5 pl-md-5 pr-md-2 order-md-2">
-                <h2 class="work-title">APPLE ACCESSIBILITY VIDEO</h2>
-                <h5 class="portfolio-subtitle">A promo video highlighting key accessibility features for impaired vision</h5>
-
-                <br>
-                <h5>OVERVIEW</h5>
-                <p>My work developing instructional content for the iPad led to a consulting project for an organization focused on assistive technologies. The project was focus on highlighting key assistive technology features for vision impairment on the iPhone and iPad. The accessibility video was developed with a <a href="https://www.dropbox.com/s/attwufrnthr5j4u/Vision%20Accessibility%20Guide.pdf?dl=0" target="blank">compainion guide</a> that was used as a lead magnet as part of a marketing sales funnel.
-                </p>
-                <p>The video focused on the following features:</p>
-                <ul>
-                    <li class="outcomes indent2">Increased Font Size</li>
-                    <li class="outcomes indent2">Button Shapes & Labels</li>
-                    <li class="outcomes indent2">Eliminating Transparency</li>
-                    <li class="outcomes indent2">Screen Readers</li>
-                    <li class="outcomes indent2">Display Accomodations</li>
-                    <li class="outcomes indent2">Zoom Window</li>
-                    <li class="outcomes indent2">Magnifying Camera</li>
-
-                </ul>
-                <br>
-                <div class="iframe-container">
-                    <iframe class="responsive-iframe" src="https://player.vimeo.com/video/199213222" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
+              <a
+                href="mailto: michael@wearegenerationconnect.com"
+                target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"
+              /></a>
+            </div>
           </div>
-      
-      
-       
-      </div>
-      </div>
-  
-</div>
 
+          <div
+            class="col-12 px-5 pt-3 pb-3 col-lg-8 pb-lg-5 pt-lg-5 pb-lg-3 ml-auto"
+          >
+            <div id="footer-form">
+              <h1 id="footer-intro2">GET IN TOUCH</h1>
+              <p id="footer-text" class="text-center">
+                Want to connect? Drop me a line below!
+              </p>
+              <form
+                class="p-2"
+                name="input"
+                method="POST"
+                action="https://formspree.io/xpzyyewr"
+              >
+                <div class="form-group row">
+                  <input
+                    name="Name"
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                </div>
 
-
-<!-- Footer Section -->
-  
-<div id="footer">
-
-  <div class="container">
-    <div class="row d-flex align-items-start">
-
-      <div class="col-12 px-5 pt-5 pb-5 col-lg-3 mx-lg-3 py-lg-3 mt-lg-5">
-        <div class="text-center text-lg-left" id="footer-intro">
-          <div class="pl-4 d-none d-lg-block footer-border">
-        <h2 class="pb-2">CONTACT</h2>
-        <p id="footer-text">Michael Potteiger</p>
-        <p id="footer-text">mpotteiger@icloud.com</p>
-        <p id="footer-text">717.825.6332</p>
-      </div>
-      
-      <div class="d-lg-none">
-        <h2 class="pb-2">CONTACT</h2>
-        <p id="footer-text">Michael Potteiger</p>
-        <p id="footer-text">mpotteiger@icloud.com</p>
-        <p id="footer-text">717.825.6332</p>
-      </div>
-      
-      </div>
-        
-      
-      <div class="container-sm d-flex justify-content-center justify-content-lg-start">
-      <a href="https://www.linkedin.com/in/michael-potteiger-5a876959/" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"></a>
-         
-      
-      
-      <a href="https://github.com/GenerationConnect19" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"></a>
-      
-      
-      <a href="mailto: michael@wearegenerationconnect.com" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"></a>
-       
-      
-      </div>
-      </div>
-  
-
-
-<div class="col-12 px-5 pt-3 pb-3 col-lg-8 pb-lg-5 pt-lg-5 pb-lg-3 ml-auto">
-
-
-  <div id="footer-form">
-    <h1 id="footer-intro2">GET IN TOUCH</h1>
-    <p id="footer-text" class="text-center">Want to connect? Drop me a line below!</p>
-    <form class="p-2" name="input" method="POST" action="https://formspree.io/xpzyyewr">
-      <div class="form-group row">
-          <input name="Name" type="text" class="form-control" placeholder="Name">
+                <div class="form-group row">
+                  <input
+                    name="_replyto"
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group row">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    rows="3"
+                    placeholder="Say hi..."
+                  ></textarea>
+                </div>
+                <br />
+                <div class="form-group row">
+                  <button
+                    id="contact-button"
+                    class="btn btn-block btn-outline-primary"
+                    type="submit"
+                  >
+                    SEND MESSAGE
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-  
-      <div class="form-group row">
-          <input name="_replyto" type="email" class="form-control" id="inputEmail" placeholder="Email">
       </div>
-        <div class="form-group row">
-        <textarea name="message" class="form-control" rows="3" placeholder="Say hi..."></textarea>
-      </div>
-      <br>
-      <div class="form-group row">
-      <button id="contact-button" class="btn btn-block btn-outline-primary" type="submit">SEND MESSAGE</button>
-      </div>
-    </form>
-  </div>
-</div>
+    </div>
 
-  </div>
-  </div>
-  </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
- 
-<!-- Font Awesome Kit Code-->
-<script src="https://kit.fontawesome.com/35d31ba354.js" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    <!-- Font Awesome Kit Code-->
+    <script
+      src="https://kit.fontawesome.com/35d31ba354.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

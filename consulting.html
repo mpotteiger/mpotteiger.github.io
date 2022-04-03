@@ -1,335 +1,578 @@
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./style.css" rel="stylesheet" />
 
-<link href="./style.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+  />
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    rel="stylesheet"
+  />
 
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <li>
+            <a
+              id="nav-item"
+              class="nav-item nav-link active nav-bar-item main-link"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a id="nav-item" class="nav-item nav-link" href="index.html#about-n"
+              >About</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              id="nav-item-active"
+              class="nav-item nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Experience
+            </a>
+            <div
+              id="nav-bar-dropdown"
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown"
+            >
+              <a id="nav-item-dropdown" href="/CareTeamApp.html">Product</a>
+              <a id="nav-item-dropdown" href="/research.html">Research</a>
+              <a id="nav-item-dropdown" href="/consulting.html">Consulting</a>
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a
+              id="nav-item"
+              class="nav-item nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Portfolio
+            </a>
+            <div
+              id="nav-bar-dropdown"
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdown"
+            >
+              <a id="nav-item-dropdown" href="/gc-deck.html"
+                >Presentation: App Deck</a
+              >
+              <a id="nav-item-dropdown" href="/research-webinar.html"
+                >Research Webinar</a
+              >
+              <a id="nav-item-dropdown" href="/focus-groups.html"
+                >Focus Group Analysis</a
+              >
+              <a id="nav-item-dropdown" href="/specific-aims.html"
+                >NIH Grant Aims</a
+              >
+              <a
+                id="nav-item-dropdown"
+                href="/Dementia-Care-Animated-Video.html"
+                >Animated Video</a
+              >
+              <a id="nav-item-dropdown" href="/intergenerational.html"
+                >Community Grant</a
+              >
+              <a id="nav-item-dropdown" href="/ipad-guide.html"
+                >iPad Training Guide</a
+              >
+              <a id="nav-item-dropdown" href="/accessibility.html"
+                >Accessibility Video</a
+              >
+              <a id="nav-item-dropdown" href="/senior-tech.html"
+                >Seniors Tech Video</a
+              >
+            </div>
+          </li>
 
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-
-<body> 
-
- <!-- header -->
- <nav class="navbar navbar-expand-lg navbar-light nav-bar-color">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-    <li><a id="nav-item" class="nav-item nav-link active nav-bar-item main-link" href="index.html">Home</a></li>
-    <li><a id="nav-item" class="nav-item nav-link" href="index.html#about-n">About</a></li>
-    <li class="nav-item dropdown">
-      <a id="nav-item-active" class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Experience
-      </a>
-      <div id="nav-bar-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a id="nav-item-dropdown" href="/CareTeamApp.html">Product</a>
-        <a  id="nav-item-dropdown" href="/research.html">Research</a>
-        <a id="nav-item-dropdown" href="/consulting.html">Consulting</a>
-      </div>
-
-      <li class="nav-item dropdown">
-        <a id="nav-item" class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Portfolio
-        </a>
-        <div id="nav-bar-dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a id="nav-item-dropdown" href="/CTC-case-study.html">App Case Study</a>
-          <a  id="nav-item-dropdown" href="/CTC-promo.html">App Promo Video</a>
-          <a id="nav-item-dropdown" href="/Dementia-Care-Animated-Video.html">Animated Video</a>
-          <a id="nav-item-dropdown" href="/research-outcomes.html">Research Charts</a>
-          <a  id="nav-item-dropdown" href="/specific-aims.html">NIH Grant</a>
-          <a id="nav-item-dropdown" href="/intergenerational.html">Community Grant</a>
-          <a id="nav-item-dropdown" href="/ipad-guide.html">iPad Training Guide</a>
-          <a  id="nav-item-dropdown" href="/accessibility.html">Accessibility Video</a>
-          <a id="nav-item-dropdown" href="senior-tech.html">Seniors Tech Video</a>
+          <li>
+            <a
+              id="nav-item"
+              class="nav-item nav-link"
+              href="#footer"
+              tabindex="-1"
+              >Contact</a
+            >
+          </li>
         </div>
+      </div>
+    </nav>
 
-          <li><a id="nav-item" class="nav-item nav-link" href="#footer" tabindex="-1">Contact</a></li>
-    </div>
-  </div>
-</nav>
+    <!-- Main Section -->
+    <div class="work-example">
+      <div class="container">
+        <div class="row">
+          <div
+            class="work-scope col-12 px-5 pt-3 pb-4 order-2 col-md-3 pl-md-2 pr-md-5 pt-md-5 pb-md-2 order-md-1"
+          >
+            <strong><h5>SCOPE OF WORK</h5></strong>
+            <br />
+            <h8 class="orange">DESIGN</h8>
+            <hr class="organge" />
+            <div class="tag1">HTML/CSS</div>
+            <div class="tag1">Javascript</div>
+            <div class="tag1">Graphic Design</div>
+            <div class="tag1">Video Editing</div>
 
+            <br />
+            <h8 class="red-organge">MARKETING</h8>
+            <hr class="red-orange" />
+            <div class="tag2">Search Engine Optimization</div>
+            <div class="tag2">Email Automations</div>
+            <div class="tag2">Copywriting</div>
+            <div class="tag2">Facebook Ads</div>
 
-  <!-- Main Section -->
-  <div class="work-example">
-  <div class="container">
+            <br />
+            <h8 class="teal-light">OPERATIONS</h8>
+            <hr class="teal-light" />
+            <div class="tag3">Mobile Device Deployment</div>
+            <div class="tag3">Software Evaluation</div>
+            <div class="tag3">Software Migration</div>
+            <br />
+          </div>
 
-    <div class="row">
-    <div class="work-scope col-12 px-5 pt-3 pb-4 order-2 col-md-3 pl-md-2 pr-md-5 pt-md-5 pb-md-2 order-md-1">
-  
-        <strong><h5>SCOPE OF WORK</h5></strong>
-        <br>
-        <h8 class="orange">DESIGN</h8>
-        <hr class="organge">
-          <div class="tag1">HTML/CSS</div>
-          <div class="tag1">Javascript</div>
-          <div class="tag1">Graphic Design</div>
-          <div class="tag1">Video Editing</div>
-
-          <br>
-          <h8 class="red-organge">MARKETING</h8>
-          <hr class="red-orange">
-          <div class="tag2">Search Engine Optimization</div>
-          <div class="tag2">Email Automations</div>
-          <div class="tag2">Copywriting</div>
-          <div class="tag2">Facebook Ads</div>
-
-
-          <br>
-          <h8 class="teal-light">OPERATIONS</h8>
-          <hr class="teal-light">
-          <div class="tag3">Mobile Device Deployment</div>
-          <div class="tag3">Software Evaluation</div>
-          <div class="tag3">Software Migration</div>
-          <br>
-    </div>
-  
-     
-        <div class="col-12 px-4 pt-4 pb-3 order-1 col-md-9 py-md-5 pl-md-5 pr-md-2 order-md-2">
-          <h2 class="work-title">ADVOCACY</h2>      
-          <h5 class="work-subtitle">Collaborating with senior care organizations to bridge the digital divide</h5>
-                <br>
-                <h5>OVERVIEW</h5>
-                <p>In the early 2010’s, smartphone and tablet adoption was growing exponentially; yet, there was a widening digital divide. In 2013, over 80% of younger adults (under the age of 34) owned a smartphone, while less than 20% of older adults (over the age of 65) owned a smartphone or tablet computer. Despite the potential of technology to connect people, many older adults were apprehensive about using mobile devices and concerned about technology’s impact on younger generations.
-                </p>
-                <br>
-              <h5>MY ROLE</h5>
-            <p>After a personal experience (teaching my widowed grandmother how to use an iPad), I became an advocate for senior technology adoption — pursuing freelance, consulting projects that were focused on bridging the digital divide. From 2013 to 2016, I worked on a variety of projects, partnering with long-term care facilities, non-profits, and academic institutions.
+          <div
+            class="col-12 px-4 pt-4 pb-3 order-1 col-md-9 py-md-5 pl-md-5 pr-md-2 order-md-2"
+          >
+            <h2 class="work-title">ADVOCACY</h2>
+            <h5 class="work-subtitle">
+              Collaborating with senior care organizations to bridge the digital
+              divide
+            </h5>
+            <br />
+            <h5>OVERVIEW</h5>
+            <p>
+              In the early 2010’s, smartphone and tablet adoption was growing
+              exponentially; yet, there was a widening digital divide. In 2013,
+              over 80% of younger adults (under the age of 34) owned a
+              smartphone, while less than 20% of older adults (over the age of
+              65) owned a smartphone or tablet computer. Despite the potential
+              of technology to connect people, many older adults were
+              apprehensive about using mobile devices and concerned about
+              technology’s impact on younger generations.
             </p>
-                <br>
-                <br>
-                <div class="container-flex">
-                    <div class="row"> 
-                    <div class="col-12 px-4 pb-3 pt-1 col-lg-7 pr-lg-5">
-                     <p><strong><em>ReThink Technology Presentations</em></strong></p>
-                     <p>I developed a 60-minute, interactive presentation designed to help long-term care facilities, senior center, libraries, and other organizations introduce older adults to mobile technology. The presentation include a live video phone call with my grandmother.
-                    </p>   
-                    <ul>
-                        <li class="outcomes indent2 mt-3">Presented at over 100 locations.
-                        </li>
-                        <li class="outcomes indent2  mt-3">Attracted groups of up to 200+ people.
-                        </li>
-                        <li class="outcomes indent2 mt-3">Inspired hundreds of seniors to enroll technology courses.
-                        </li>
-                    </ul>
-                </div>    
-    
-                <div class="col-12 col-lg-5 pt-3 pt-lg-0 px-lg-0">
-                    <img id="border" src="https://res.cloudinary.com/generation-connect/image/upload/v1594129262/Personal%20Website/Consulting%20Images/rtt.jpg"  width="100%" height="auto" role="img">
-                </div>     
-                </div>       
-                </div>
-                <br>
-                <hr>
-                <br>
-
-
-                <div class="container-flex">
-                  <div class="row"> 
-                  <div class="col-12 px-4 pb-3 pt-1 col-lg-7 pr-lg-5">
-                   <p><strong><em>iPad Deployment & Training Workshops</em></strong></p>
-                   <p>Through partnership with senior living communities, I developed a curriculum for iPad training and deployment.
-                  </p>   
-                  <ul>
-                      <li class="outcomes indent2 mt-3">Deployed 500+ specially configured iPads across over 100 locations.
-                      </li>
-                      <li class="outcomes indent2  mt-3">Developed a visual iPad Training Guide for seniors, and sold thousands of copies.
-                      </li>
-                      <li class="outcomes indent2 mt-3">Invited to Cupertino to present to Apple’s healthcare division in 2015 and subsequently involved in a pilot sponsored by Apple. 
-                      </li>
-                  </ul>
-                
-              </div>    
- 
-              <div class="col-12 col-lg-5 pt-lg-0 px-lg-0">
-                  <img id="border" src="https://res.cloudinary.com/generation-connect/image/upload/v1594129243/Personal%20Website/Consulting%20Images/ipadclasses.jpg"  width="100%" height="auto%" role="img">
-              </div> 
-                  
-              </div>       
-              </div>
-              <br>
-              <hr>
-              <br>
-
-
-              <div class="container-flex">
-                <div class="row"> 
+            <br />
+            <h5>MY ROLE</h5>
+            <p>
+              After a personal experience (teaching my widowed grandmother how
+              to use an iPad), I became an advocate for senior technology
+              adoption — pursuing freelance, consulting projects that were
+              focused on bridging the digital divide. From 2013 to 2016, I
+              worked on a variety of projects, partnering with long-term care
+              facilities, non-profits, and academic institutions.
+            </p>
+            <br />
+            <br />
+            <div class="container-flex">
+              <div class="row">
                 <div class="col-12 px-4 pb-3 pt-1 col-lg-7 pr-lg-5">
-                 <p><strong><em>Learning Management System Development</em></strong></p>
-                 <p>In 2016, I developed content and configured a custom learning management system for a global non-profit. The platform  is used by 3,000+ senior care organizations  using technology to facilitate person-centered engagement activities.
-                </p>   
-                <ul>
-                    <li class="outcomes indent2 mt-3">Vetted a variety of learning management platforms and led a platform migration.
+                  <p>
+                    <strong><em>ReThink Technology Presentations</em></strong>
+                  </p>
+                  <p>
+                    I developed a 60-minute, interactive presentation designed
+                    to help long-term care facilities, senior center, libraries,
+                    and other organizations introduce older adults to mobile
+                    technology. The presentation include a live video phone call
+                    with my grandmother.
+                  </p>
+                  <ul>
+                    <li class="outcomes indent2 mt-3">
+                      Presented at over 100 locations.
                     </li>
-                    <li class="outcomes indent2  mt-3">Created custom content for a series of new courses.
+                    <li class="outcomes indent2 mt-3">
+                      Attracted groups of up to 200+ people.
                     </li>
-                    <li class="outcomes indent2 mt-3">Customized platform configuration, branding, and integrations.
-
+                    <li class="outcomes indent2 mt-3">
+                      Inspired hundreds of seniors to enroll technology courses.
                     </li>
-                </ul>
-            </div>    
-
-            <div class="col-12 col-lg-5 pt-lg-0 px-lg-0">
-               <span id="border"> <img src="https://res.cloudinary.com/generation-connect/image/upload/v1594129249/Personal%20Website/Consulting%20Images/lms.jpg"  width="100%" height="auto" role="img"></span>
-            </div> 
-                
-            </div>       
-            </div>
-  
-          </div>
-      
-      
-       
-      </div>
-      </div>
-</div>
-
-<!-- Related Projects -->
-
-
-
-<div class="project-preview-section">
-<h5 class="project-preview-title pt-5">RELATED PROJECTS</h5>
-<div class="container">
-
-  <div class="row">
-
-      <div class="col-md-4 mt-4  d-flex align-items-stretch">
-        <div id="card" class="card profile-card-5 mb-2">
-          <div class="card-img-block">
-            <a href="/ipad-guide.html"> <img src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_ipad_training_guide.jpg"  width="100%" height="auto" role="img"></a>
-          </div>
-            <div class="card-body">
-              <h6><a class="card-title2" href="/ipad-guide.html">iPad Guide for Seniors</a></h6>
-              <p class="card-text2">A picture, illustrated introductory guide to the iPad that was developed for older adults without any previous experience using computers.</p>
-              <button onclick="window.location.href='/ipad-guide.html';" class="btn btn-primary">View Project</button>
-            </div>
-         </div>
-            </div>
-
-            <div class="col-md-4 mt-4 d-flex align-items-stretch">
-              <div id="card" class="card profile-card-5 mb-2">
-                <div class="card-img-block">
-                  <a href="/accessibility.html"> <img src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_accessibilityy_video.jpg"  width="100%" height="auto" role="img"></a>
+                  </ul>
                 </div>
-                  <div class="card-body">
-                    <h6><a class="card-title2" href="/accessibility.html">Apple Accessibility Video</a></h6>
-                    <p class="card-text2">A short video that introduces key accessibility features on the iPhone and iPad to assist people with hearing, vision, or mobility impairment.</p>
-                    <button onclick="window.location.href='/accessibility.html';" class="btn btn-primary">View Project</button>
-                  </div>
-               </div>
-                  </div>
 
-                  <div class="col-md-4 mt-4 d-flex align-items-stretch">
-                    <div id="card" class="card profile-card-5 mb-2">
-                      <div class="card-img-block">
-                        <a href="/senior-tech.html"> <img src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_tech_for_seniors_video.jpg"  width="100%" height="auto" role="img"></a>
-                      </div>
-                        <div class="card-body">
-                          <h6><a class="card-title2" href="/senior-tech.html">Tech for Seniors: Promo Video</a></h6>
-                          <p class="card-text2">A promo video used to help senior living communities promote technology programming, featuring my grandmother's tech story.</p>
-                          <button onclick="window.location.href='/senior-tech.html';" class="btn btn-primary">View Project</button>
-                        </div>
-                     </div>
-                        </div>
+                <div class="col-12 col-lg-5 pt-3 pt-lg-0 px-lg-0">
+                  <img
+                    id="border"
+                    src="https://res.cloudinary.com/generation-connect/image/upload/v1594129262/Personal%20Website/Consulting%20Images/rtt.jpg"
+                    width="100%"
+                    height="auto"
+                    role="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
 
-      </div>
-      </div>
-      <br>
-      <br>
-    </div> 
+            <div class="container-flex">
+              <div class="row">
+                <div class="col-12 px-4 pb-3 pt-1 col-lg-7 pr-lg-5">
+                  <p>
+                    <strong
+                      ><em>iPad Deployment & Training Workshops</em></strong
+                    >
+                  </p>
+                  <p>
+                    Through partnership with senior living communities, I
+                    developed a curriculum for iPad training and deployment.
+                  </p>
+                  <ul>
+                    <li class="outcomes indent2 mt-3">
+                      Deployed 500+ specially configured iPads across over 100
+                      locations.
+                    </li>
+                    <li class="outcomes indent2 mt-3">
+                      Developed a visual iPad Training Guide for seniors, and
+                      sold thousands of copies.
+                    </li>
+                    <li class="outcomes indent2 mt-3">
+                      Invited to Cupertino to present to Apple’s healthcare
+                      division in 2015 and subsequently involved in a pilot
+                      sponsored by Apple.
+                    </li>
+                  </ul>
+                </div>
 
+                <div class="col-12 col-lg-5 pt-lg-0 px-lg-0">
+                  <img
+                    id="border"
+                    src="https://res.cloudinary.com/generation-connect/image/upload/v1594129243/Personal%20Website/Consulting%20Images/ipadclasses.jpg"
+                    width="100%"
+                    height="auto%"
+                    role="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <br />
+            <hr />
+            <br />
 
+            <div class="container-flex">
+              <div class="row">
+                <div class="col-12 px-4 pb-3 pt-1 col-lg-7 pr-lg-5">
+                  <p>
+                    <strong
+                      ><em>Learning Management System Development</em></strong
+                    >
+                  </p>
+                  <p>
+                    In 2016, I developed content and configured a custom
+                    learning management system for a global non-profit. The
+                    platform is used by 3,000+ senior care organizations using
+                    technology to facilitate person-centered engagement
+                    activities.
+                  </p>
+                  <ul>
+                    <li class="outcomes indent2 mt-3">
+                      Vetted a variety of learning management platforms and led
+                      a platform migration.
+                    </li>
+                    <li class="outcomes indent2 mt-3">
+                      Created custom content for a series of new courses.
+                    </li>
+                    <li class="outcomes indent2 mt-3">
+                      Customized platform configuration, branding, and
+                      integrations.
+                    </li>
+                  </ul>
+                </div>
 
-<!-- Footer Section -->
-  
-<div id="footer">
-
-
-  <div class="container">
-    <div class="row d-flex align-items-start">
-
-      <div class="col-12 px-5 pt-5 pb-5 col-lg-3 mx-lg-3 py-lg-3 mt-lg-5">
-        <div class="text-center text-lg-left" id="footer-intro">
-          <div class="pl-4 d-none d-lg-block footer-border">
-        <h2 class="pb-2">CONTACT</h2>
-        <p id="footer-text">Michael Potteiger</p>
-        <p id="footer-text">mpotteiger@icloud.com</p>
-        <p id="footer-text">717.825.6332</p>
-      </div>
-      
-      <div class="d-lg-none">
-        <h2 class="pb-2">CONTACT</h2>
-        <p id="footer-text">Michael Potteiger</p>
-        <p id="footer-text">mpotteiger@icloud.com</p>
-        <p id="footer-text">717.825.6332</p>
-      </div>
-      
-      </div>
-        
-      
-      <div class="container-sm d-flex justify-content-center justify-content-lg-start">
-      <a href="https://www.linkedin.com/in/michael-potteiger-5a876959/" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"></a>
-         
-      
-      
-      <a href="https://github.com/GenerationConnect19" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"></a>
-      
-      
-      <a href="mailto: michael@wearegenerationconnect.com" target="blank"><img class="footer-images" src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"></a>
-       
-      
-      </div>
-      </div>
-  
-
-
-<div class="col-12 px-5 pt-3 pb-3 col-lg-8 pb-lg-5 pt-lg-5 pb-lg-3 ml-auto">
-
-
-  <div id="footer-form">
-    <h1 id="footer-intro2">GET IN TOUCH</h1>
-    <p id="footer-text" class="text-center">Want to connect? Drop me a line below!</p>
-    <form class="p-2" name="input" method="POST" action="https://formspree.io/xpzyyewr">
-      <div class="form-group row">
-          <input name="Name" type="text" class="form-control" placeholder="Name">
+                <div class="col-12 col-lg-5 pt-lg-0 px-lg-0">
+                  <span id="border">
+                    <img
+                      src="https://res.cloudinary.com/generation-connect/image/upload/v1594129249/Personal%20Website/Consulting%20Images/lms.jpg"
+                      width="100%"
+                      height="auto"
+                      role="img"
+                  /></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-  
-      <div class="form-group row">
-          <input name="_replyto" type="email" class="form-control" id="inputEmail" placeholder="Email">
       </div>
-        <div class="form-group row">
-        <textarea name="message" class="form-control" rows="3" placeholder="Say hi..."></textarea>
+    </div>
+
+    <!-- Related Projects -->
+
+    <div class="project-preview-section">
+      <h5 class="project-preview-title pt-5">RELATED PROJECTS</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mt-4 d-flex align-items-stretch">
+            <div id="card" class="card profile-card-5 mb-2">
+              <div class="card-img-block">
+                <a href="/ipad-guide.html">
+                  <img
+                    src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_ipad_training_guide.jpg"
+                    width="100%"
+                    height="auto"
+                    role="img"
+                /></a>
+              </div>
+              <div class="card-body">
+                <h6>
+                  <a class="card-title2" href="/ipad-guide.html"
+                    >iPad Guide for Seniors</a
+                  >
+                </h6>
+                <p class="card-text2">
+                  A picture, illustrated introductory guide to the iPad that was
+                  developed for older adults without any previous experience
+                  using computers.
+                </p>
+                <button
+                  onclick="window.location.href='/ipad-guide.html';"
+                  class="btn btn-primary"
+                >
+                  View Project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-4 d-flex align-items-stretch">
+            <div id="card" class="card profile-card-5 mb-2">
+              <div class="card-img-block">
+                <a href="/accessibility.html">
+                  <img
+                    src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_accessibilityy_video.jpg"
+                    width="100%"
+                    height="auto"
+                    role="img"
+                /></a>
+              </div>
+              <div class="card-body">
+                <h6>
+                  <a class="card-title2" href="/accessibility.html"
+                    >Apple Accessibility Video</a
+                  >
+                </h6>
+                <p class="card-text2">
+                  A short video that introduces key accessibility features on
+                  the iPhone and iPad to assist people with hearing, vision, or
+                  mobility impairment.
+                </p>
+                <button
+                  onclick="window.location.href='/accessibility.html';"
+                  class="btn btn-primary"
+                >
+                  View Project
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-4 d-flex align-items-stretch">
+            <div id="card" class="card profile-card-5 mb-2">
+              <div class="card-img-block">
+                <a href="/senior-tech.html">
+                  <img
+                    src="https://res.cloudinary.com/generation-connect/image/upload/v1593522253/Personal%20Website/Portfolio/3_tech_for_seniors_video.jpg"
+                    width="100%"
+                    height="auto"
+                    role="img"
+                /></a>
+              </div>
+              <div class="card-body">
+                <h6>
+                  <a class="card-title2" href="/senior-tech.html"
+                    >Tech for Seniors: Promo Video</a
+                  >
+                </h6>
+                <p class="card-text2">
+                  A promo video used to help senior living communities promote
+                  technology programming, featuring my grandmother's tech story.
+                </p>
+                <button
+                  onclick="window.location.href='/senior-tech.html';"
+                  class="btn btn-primary"
+                >
+                  View Project
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <br>
-      <div class="form-group row">
-      <button id="contact-button" class="btn btn-block btn-outline-primary" type="submit">SEND MESSAGE</button>
+      <br />
+      <br />
+    </div>
+
+    <!-- Footer Section -->
+
+    <div id="footer">
+      <div class="container">
+        <div class="row d-flex align-items-start">
+          <div class="col-12 px-5 pt-5 pb-5 col-lg-3 mx-lg-3 py-lg-3 mt-lg-5">
+            <div class="text-center text-lg-left" id="footer-intro">
+              <div class="pl-4 d-none d-lg-block footer-border">
+                <h2 class="pb-2">CONTACT</h2>
+                <p id="footer-text">Michael Potteiger</p>
+                <p id="footer-text">mpotteiger@icloud.com</p>
+                <p id="footer-text">717.825.6332</p>
+              </div>
+
+              <div class="d-lg-none">
+                <h2 class="pb-2">CONTACT</h2>
+                <p id="footer-text">Michael Potteiger</p>
+                <p id="footer-text">mpotteiger@icloud.com</p>
+                <p id="footer-text">717.825.6332</p>
+              </div>
+            </div>
+
+            <div
+              class="container-sm d-flex justify-content-center justify-content-lg-start"
+            >
+              <a
+                href="https://www.linkedin.com/in/michael-potteiger-5a876959/"
+                target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520912/Personal%20Website/Social%20Icons/linkedinf8.png"
+              /></a>
+
+              <a href="https://github.com/GenerationConnect19" target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520911/Personal%20Website/Social%20Icons/githubf8.png"
+              /></a>
+
+              <a
+                href="mailto: michael@wearegenerationconnect.com"
+                target="blank"
+                ><img
+                  class="footer-images"
+                  src="https://res.cloudinary.com/generation-connect/image/upload/v1588520919/Personal%20Website/Social%20Icons/emailf8.png"
+              /></a>
+            </div>
+          </div>
+
+          <div
+            class="col-12 px-5 pt-3 pb-3 col-lg-8 pb-lg-5 pt-lg-5 pb-lg-3 ml-auto"
+          >
+            <div id="footer-form">
+              <h1 id="footer-intro2">GET IN TOUCH</h1>
+              <p id="footer-text" class="text-center">
+                Want to connect? Drop me a line below!
+              </p>
+              <form
+                class="p-2"
+                name="input"
+                method="POST"
+                action="https://formspree.io/xpzyyewr"
+              >
+                <div class="form-group row">
+                  <input
+                    name="Name"
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                </div>
+
+                <div class="form-group row">
+                  <input
+                    name="_replyto"
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group row">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    rows="3"
+                    placeholder="Say hi..."
+                  ></textarea>
+                </div>
+                <br />
+                <div class="form-group row">
+                  <button
+                    id="contact-button"
+                    class="btn btn-block btn-outline-primary"
+                    type="submit"
+                  >
+                    SEND MESSAGE
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-    </form>
-  </div>
-</div>
+    </div>
 
-  </div>
-  </div>
-  </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-  <!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
- 
-    </body>
-    </html>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
