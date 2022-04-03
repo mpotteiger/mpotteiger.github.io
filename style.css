@@ -260,6 +260,14 @@ li #nav-item-active {
   text-align: center;
 }
 
+.welcome-description2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.65em;
+  line-height: 1.5;
+  color: var(--main-white);
+  text-align: center;
+}
+
 @media only screen and (max-width: 450px) {
    {
     display: flex;
